@@ -134,8 +134,8 @@ cipher_menu = tk.OptionMenu(root, cipher_option, "Vigenere", "Playfair", "Hill")
 cipher_menu.grid(row=2, column=3)
 
 # Tombol tombol
-tk.Button(root, text="Encrypt", command=encrypt_text).grid(row=3, column=0)
-tk.Button(root, text="Decrypt", command=decrypt_text).grid(row=3, column=1)
-tk.Button(root, text="Open File", command=open_file).grid(row=3, column=2)
+tk.Button(root, text="Enkripsi", command=encrypt_text).grid(row=3, column=0)
+tk.Button(root, text="Deskripsi", command=decrypt_text).grid(row=3, column=1)
+tk.Button(root, text="Buka File", command=open_file).grid(row=3, column=2)
 
 root.mainloop()
